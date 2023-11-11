@@ -5,7 +5,7 @@ function App() {
 
   return (
     <>
-      Hello I'm Anant, and Im Here to introduce myself
+      <div>Hello I'm Anant, and Im Here to introduce myself</div>
     </>
   )
 }
