@@ -7,7 +7,7 @@ import React from 'react'
 export default function SimpleSection({ title = `Sample Title`, content = `Sample paragraph content goes here.` }){
     return (
         <div>
-            <h2>{title}</h2>
+            <h3>{title}</h3>
             <p>{content}</p>
         </div>
     )
