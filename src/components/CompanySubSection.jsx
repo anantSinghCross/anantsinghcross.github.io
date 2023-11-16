@@ -12,8 +12,8 @@ export default function CompanySubSection({info}){
             {`From : ${info.from}`}
             <br/>
             {`To : ${info.to}`}
-            <TitledList skills={info.techSkills}/>
-            <TitledList skills={info.softSkills}/>
+            <TitledList skills={info.techSkills} title={`Technical Skills`}/>
+            <TitledList skills={info.softSkills} title={`Soft Skills`}/>
         </div>
     )
 }

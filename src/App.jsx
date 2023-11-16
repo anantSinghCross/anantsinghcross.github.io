@@ -3,6 +3,7 @@ import './App.css'
 import SimpleSection from './components/SimpleSection'
 import { useResumeCollection } from './hooks/useResumeCollection';
 import WorkExSection from './components/WorkExSection'
+import ProjectSection from './components/ProjectSection'
 
 function App() {
   const resume = useResumeCollection(); // 'resume' array will contain some objects whose 'content' key does not contain a string 
@@ -15,7 +16,7 @@ function App() {
       } else if (doc.type === 'workEx') {
         return <WorkExSection key={doc.id} title={doc.title} content={doc.content} />
       } else if (doc.type === 'projects') {
-        // return <></>
+        return <ProjectSection key={doc.id} title={doc.title} content={doc.content} />
       }
     }) : 'Loading...';
 
