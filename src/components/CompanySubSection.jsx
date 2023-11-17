@@ -4,7 +4,7 @@ import TitledList from './TitledList'
 export default function CompanySubSection({info}){
     // console.log(info.company)
     return (
-        <div>
+        <div className='section'>
             {`Designation : ${info.designation}`}
             <br/>
             {`Company : ${info.company}`}

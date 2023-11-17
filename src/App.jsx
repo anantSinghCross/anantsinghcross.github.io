@@ -1,7 +1,5 @@
-import React, {useEffect, useState} from 'react'
-import './App.css'
-import SimpleSection from './components/SimpleSection'
 import { useResumeCollection } from './hooks/useResumeCollection';
+import SimpleSection from './components/SimpleSection'
 import WorkExSection from './components/WorkExSection'
 import ProjectSection from './components/ProjectSection'
 
