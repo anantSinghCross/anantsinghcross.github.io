@@ -8,10 +8,43 @@
     max-width: 850px;
 }
 
+.gradient-text {
+    color: transparent;
+    background-image: linear-gradient(45deg, rgb(168, 128, 255), #FFA882, #FF80D4);
+    width: fit-content;
+    background-clip: text;
+    -webkit-background-clip: text;
+    -moz-background-clip: text;
+}
+
+.landing {
+    background: url('./src/assets/Vector.png');
+    background-size: contain;
+    background-repeat: no-repeat;
+    color: white;
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.landing h2 {
+    margin: auto;
+    text-align: center;
+}
+
+.landing-hr-line{
+    width: 10rem;
+    border: 1px white solid;
+}
+
+.landing p {
+    margin: auto;
+    text-align: center;
+}
+
 .section {
-    background-color: rgb(255, 241, 225);
     margin: 1rem;
     padding: 1.5rem;
-    /* border: 1px rgb(172, 172, 172) solid; */
     border-radius: 10px;
 }

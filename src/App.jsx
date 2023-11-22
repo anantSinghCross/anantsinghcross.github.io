@@ -2,6 +2,7 @@ import { useResumeCollection } from './hooks/useResumeCollection';
 import SimpleSection from './components/SimpleSection'
 import WorkExSection from './components/WorkExSection'
 import ProjectSection from './components/ProjectSection'
+import LandingSection from './components/LandingSection';
 
 function App() {
   const resume = useResumeCollection(); // 'resume' array will contain some objects whose 'content' key does not contain a string 
@@ -21,6 +22,7 @@ function App() {
   console.log(resume)
   return (
     <>
+      <LandingSection/>
       {resumeList}
     </>
   )
