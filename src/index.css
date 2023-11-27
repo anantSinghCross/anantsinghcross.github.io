@@ -3,6 +3,11 @@
     font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
 }
 
+html {
+    background-color: #222222;
+    color: #aeaeae;
+}
+
 #root{
     margin: auto;
     max-width: 850px;
@@ -21,6 +26,7 @@
     background: url('./src/assets/Vector.png');
     background-size: contain;
     background-repeat: no-repeat;
+    background-color: transparent;
     color: white;
     height: 100vh;
     display: flex;
@@ -31,6 +37,7 @@
 .landing h2 {
     margin: auto;
     text-align: center;
+    background-color: transparent;
 }
 
 .landing-hr-line{
@@ -44,7 +51,19 @@
 }
 
 .section {
-    margin: 1rem;
+    margin-bottom: 5rem;
     padding: 1.5rem;
     border-radius: 10px;
+    box-shadow: 10px 10px 20px rgba(0, 0, 0, .25), -10px -10px 20px rgba(255, 255, 255, .05);
+}
+
+.sub-section {
+    box-shadow: none;
+    border-left: 3px grey solid;
+    border-radius: 0;
+}
+
+.company-grid {
+    display: grid;
+    grid: 1fr 1fr/1fr 1fr;
 }
