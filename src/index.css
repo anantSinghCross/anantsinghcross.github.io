@@ -59,7 +59,7 @@ html {
 
 .sub-section {
     box-shadow: none;
-    border-left: 3px grey solid;
+    border-left: 10px rgba(255, 255, 255, 0.02) solid;
     border-radius: 0;
 }
 
