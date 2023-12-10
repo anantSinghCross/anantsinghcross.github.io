@@ -32,7 +32,7 @@ body::-webkit-scrollbar {
 }
 
 .landing {
-    background: url('./src/assets/Vector.png');
+    background: url('src/assets/Vector.png');
     background-size: contain;
     background-repeat: no-repeat;
     background-color: transparent;

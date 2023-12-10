@@ -19,7 +19,7 @@ function App() {
       }
     }) : 'Loading...';
 
-  console.log(resume)
+  // console.log(resume)
   return (
     <>
       <LandingSection/>
