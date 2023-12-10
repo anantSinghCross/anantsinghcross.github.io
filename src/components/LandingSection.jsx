@@ -1,5 +1,5 @@
 import React from 'react'
-import bgImage from '../../src/assets/Vector.png';
+import bgImage from '../../src/assets/Vector.svg';
 
 export default function LandingSection(){
     console.log(bgImage)
