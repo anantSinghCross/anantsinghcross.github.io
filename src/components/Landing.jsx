@@ -8,7 +8,7 @@ import { BsArrowDown } from "react-icons/bs";
 
 function Landing() {
   return (
-    <div className="flex flex-col justify-center items-center w-full h-screen">
+    <div className="flex justify-center items-center w-full h-screen">
       <div className="flex flex-col sm:flex-row gap-2 w-max h-max p-10 m-2 rounded-3xl bg-gradient-to-tr from from-gray-900 via-zinc-900 to-zinc-800 text-zinc-400 shadow-2xl">
         <div className="flex flex-col items-center sm:items-start gap-2">
           <img
@@ -62,7 +62,7 @@ function Landing() {
           </a>
         </div>
       </div>
-      <div className="absolute bottom-5 animate-bounce text-zinc-500">
+      <div className="absolute bottom-0 sm:bottom-5 animate-bounce text-zinc-500">
         <BsArrowDown size={25} />
       </div>
     </div>
