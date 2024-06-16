@@ -1,11 +1,15 @@
 import myPic from "/mypic.JPG";
+import { FaLinkedinIn } from "react-icons/fa";
+import { FiGithub } from "react-icons/fi";
+import { TbMailbox } from "react-icons/tb";
+import { BsInstagram } from "react-icons/bs";
 
 function App() {
   return (
     <div className="flex justify-center items-center w-full h-screen ">
-      <div className="flex flex-col sm:flex-row gap-2 w-max h-max p-10 m-2 rounded-3xl bg-gradient-to-tr from from-zinc-900 via-zinc-900 to-zinc-800 text-zinc-400 shadow-2xl">
+      <div className="flex flex-col sm:flex-row gap-2 w-max h-max p-10 m-2 rounded-3xl bg-gradient-to-tr from from-gray-900 via-zinc-900 to-zinc-800 text-zinc-400 shadow-2xl">
         <div className="flex flex-col items-center sm:items-start gap-2">
-          <img className="w-24 h-24 rounded-full" src={myPic} alt="My Pic" />
+          <img className="w-24 h-24 rounded-full hover:ring hover:ring-teal-300" src={myPic} alt="My Pic" />
           <p className=" text-sm">React Developer</p>
           <h1 className="text-white font-mono text-4xl">Anant Singh</h1>
           <p className="text-zinc-500 max-w-96">
@@ -18,25 +22,37 @@ function App() {
             className=" p-2 px-4 sm:p-3 sm:px-8 rounded-full bg-gradient-to-tr from-blue-800 to-blue-500 shadow-xl shadow-blue-950 text-zinc-200 text-center hover:scale-105 transition-all"
             href="https://www.linkedin.com/in/anantsinghcross/"
           >
-            LinkedIn
+            <span className="flex items-center gap-5">
+            <FaLinkedinIn size={20}/>
+            <p>LinkedIn</p>
+            </span>
           </a>
           <a
             className=" p-2 px-4 sm:p-3 sm:px-8 rounded-full bg-gradient-to-tr from-pink-800 to-pink-500 shadow-xl shadow-pink-950 text-zinc-200 text-center hover:scale-105 transition-all"
             href="https://www.instagram.com/oregano.seasoning/"
           >
-            Instagram
+            <span className="flex items-center gap-5">
+            <BsInstagram size={20}/>
+            <p>Instagram</p>
+            </span>
           </a>
           <a
             className=" p-2 px-4 sm:p-3 sm:px-8 rounded-full bg-gradient-to-tr from-green-800 to-green-500 shadow-xl shadow-green-950 text-zinc-200 text-center hover:scale-105 transition-all"
             href="https://github.com/anantSinghCross"
           >
-            GitHub
+            <span className="flex items-center gap-5">
+            <FiGithub size={20}/>
+            <p>GitHub</p>
+            </span>
           </a>
           <a
             className=" p-2 px-4 sm:p-3 sm:px-8 rounded-full bg-gradient-to-tr from-neutral-800 to-neutral-500 shadow-xl shadow-neutral-950 text-zinc-200 text-center hover:scale-105 transition-all"
             href="mailto:anantsingh.cse@gmail.com"
           >
-            Email
+            <span className="flex items-center gap-5">
+            <TbMailbox size={20}/>
+            <p>Email</p>
+            </span>
           </a>
         </div>
       </div>
