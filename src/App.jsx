@@ -1,4 +1,4 @@
-import myPic from '/mypic.JPG'
+import myPic from "/mypic.JPG";
 
 function App() {
   return (
@@ -8,15 +8,37 @@ function App() {
           <img className="w-24 h-24 rounded-full" src={myPic} alt="My Pic" />
           <p className=" text-sm">React Developer</p>
           <h1 className="text-white font-mono text-4xl">Anant Singh</h1>
-          <p className="text-zinc-500 max-w-96">Seasoned React developer with 4 years of experience in crafting high-performance, user-friendly web applications.</p>
+          <p className="text-zinc-500 max-w-96">
+            Seasoned React developer with 4 years of experience in crafting high-performance,
+            user-friendly web applications.
+          </p>
         </div>
-        <div className="flex flex-row sm:flex-col gap-2 flex-wrap">
-          <a href="#">LinkedIn</a>
-          <a href="#">Instagram</a>
-          <a href="#">Email</a>
-          <a href="#">GitHub</a>
+        <div className="flex flex-row sm:flex-col gap-4 flex-wrap py-4 sm:py-0">
+          <a
+            className=" p-2 px-4 sm:p-3 sm:px-8 rounded-full bg-gradient-to-tr from-blue-800 to-blue-500 shadow-xl shadow-blue-950 text-zinc-200 text-center hover:scale-105 transition-all"
+            href="https://www.linkedin.com/in/anantsinghcross/"
+          >
+            LinkedIn
+          </a>
+          <a
+            className=" p-2 px-4 sm:p-3 sm:px-8 rounded-full bg-gradient-to-tr from-pink-800 to-pink-500 shadow-xl shadow-pink-950 text-zinc-200 text-center hover:scale-105 transition-all"
+            href="https://www.instagram.com/oregano.seasoning/"
+          >
+            Instagram
+          </a>
+          <a
+            className=" p-2 px-4 sm:p-3 sm:px-8 rounded-full bg-gradient-to-tr from-green-800 to-green-500 shadow-xl shadow-green-950 text-zinc-200 text-center hover:scale-105 transition-all"
+            href="https://github.com/anantSinghCross"
+          >
+            GitHub
+          </a>
+          <a
+            className=" p-2 px-4 sm:p-3 sm:px-8 rounded-full bg-gradient-to-tr from-neutral-800 to-neutral-500 shadow-xl shadow-neutral-950 text-zinc-200 text-center hover:scale-105 transition-all"
+            href="mailto:anantsingh.cse@gmail.com"
+          >
+            Email
+          </a>
         </div>
-
       </div>
     </div>
   );
