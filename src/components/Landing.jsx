@@ -1,4 +1,4 @@
-import React from 'react'
+import React from "react";
 import myPic from "/mypic.JPG";
 import { FaLinkedinIn } from "react-icons/fa";
 import { FiGithub } from "react-icons/fi";
@@ -8,10 +8,14 @@ import { BsArrowDown } from "react-icons/bs";
 
 function Landing() {
   return (
-    <div className="flex flex-col justify-center items-center w-full h-screen ">
+    <div className="flex flex-col justify-center items-center w-full h-screen">
       <div className="flex flex-col sm:flex-row gap-2 w-max h-max p-10 m-2 rounded-3xl bg-gradient-to-tr from from-gray-900 via-zinc-900 to-zinc-800 text-zinc-400 shadow-2xl">
         <div className="flex flex-col items-center sm:items-start gap-2">
-          <img className="w-24 h-24 rounded-full hover:ring hover:ring-teal-300" src={myPic} alt="My Pic" />
+          <img
+            className="w-24 h-24 rounded-full hover:ring hover:ring-teal-300"
+            src={myPic}
+            alt="My Pic"
+          />
           <p className=" text-sm">React Developer</p>
           <h1 className="text-white font-mono text-4xl">Anant Singh</h1>
           <p className="text-zinc-500 max-w-96">
@@ -25,8 +29,8 @@ function Landing() {
             href="https://www.linkedin.com/in/anantsinghcross/"
           >
             <span className="flex items-center gap-5">
-            <FaLinkedinIn size={20}/>
-            <p>LinkedIn</p>
+              <FaLinkedinIn size={20} />
+              <p>LinkedIn</p>
             </span>
           </a>
           <a
@@ -34,8 +38,8 @@ function Landing() {
             href="https://www.instagram.com/oregano.seasoning/"
           >
             <span className="flex items-center gap-5">
-            <BsInstagram size={20}/>
-            <p>Instagram</p>
+              <BsInstagram size={20} />
+              <p>Instagram</p>
             </span>
           </a>
           <a
@@ -43,8 +47,8 @@ function Landing() {
             href="https://github.com/anantSinghCross"
           >
             <span className="flex items-center gap-5">
-            <FiGithub size={20}/>
-            <p>GitHub</p>
+              <FiGithub size={20} />
+              <p>GitHub</p>
             </span>
           </a>
           <a
@@ -52,17 +56,17 @@ function Landing() {
             href="mailto:anantsingh.cse@gmail.com"
           >
             <span className="flex items-center gap-5">
-            <TbMailbox size={20}/>
-            <p>Email</p>
+              <TbMailbox size={20} />
+              <p>Email</p>
             </span>
           </a>
         </div>
       </div>
-      <div className='absolute bottom-5 animate-bounce text-zinc-500'>
-        <BsArrowDown size={25}/>
+      <div className="absolute bottom-5 animate-bounce text-zinc-500">
+        <BsArrowDown size={25} />
       </div>
     </div>
-  )
+  );
 }
 
-export default Landing
+export default Landing;
