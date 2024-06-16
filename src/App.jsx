@@ -4,7 +4,7 @@ function App() {
   return (
     <div className="flex justify-center items-center w-full h-screen ">
       <div className="flex flex-col sm:flex-row gap-2 w-max h-max p-10 m-2 rounded-3xl bg-gradient-to-tr from from-zinc-900 via-zinc-900 to-zinc-800 text-zinc-400 shadow-2xl">
-        <div className="flex flex-col gap-2">
+        <div className="flex flex-col items-center sm:items-start gap-2">
           <img className="w-24 h-24 rounded-full" src={myPic} alt="My Pic" />
           <p className=" text-sm">React Developer</p>
           <h1 className="text-white font-mono text-4xl">Anant Singh</h1>
