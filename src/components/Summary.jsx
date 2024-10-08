@@ -2,7 +2,7 @@ import React from "react";
 
 function Summary() {
   return (
-    <div className="relative flex justify-center max-w-3xl w-full">
+    <div className="flex justify-center max-w-3xl w-full">
       <div className="flex flex-col h-max gap-5 p-10 bg-white">
         <h1 className="text-2xl">
           PROFESSIONAL SUMMARY
