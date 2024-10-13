@@ -16,7 +16,7 @@ const Projects = () => {
             })
           }
           <div className='self-end'>
-            ...more on <a className='border-b-2 border-neutral-200 hover:border-neutral-400 transition-all' href="https://github.com/anantSinghCross" target='_blank'>Github</a>
+            ...more on <a className='pb-1 border-b-2 border-neutral-200 hover:border-neutral-400 transition-all' href="https://github.com/anantSinghCross" target='_blank'>Github</a>
           </div>
         </div>
       </div>

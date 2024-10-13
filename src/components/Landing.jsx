@@ -16,7 +16,7 @@ function Landing() {
             alt="My Pic"
           />
           <p className=" text-sm">Frontend Developer</p>
-          <h1 className="font-mono text-4xl">Anant Singh</h1>
+          <h1 className="text-4xl">Anant Singh</h1>
           <p className=" text-zinc-500">
             Seasoned Frontend developer from Bangalore with 4 years of experience in crafting high-performance,
             user-friendly web applications using React.js and Next.js
