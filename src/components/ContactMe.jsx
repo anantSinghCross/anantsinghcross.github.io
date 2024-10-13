@@ -12,7 +12,7 @@ const ContactMe = () => {
             
           </div>
           <p className=' text-neutral-500'>
-            Feel free to say hi on my socials/email or <a className='pb-1 border-b-2 border-b-neutral-200 hover:border-b-neutral-400 hover:text-black transition-all' href='mailto:anantsingh.cse@gmail.com'>get in touch for a project.</a>
+            Feel free to say hi on my socials/email or <a className='text-nowrap pb-1 border-b-2 border-b-neutral-200 hover:border-b-neutral-400 hover:text-black transition-all' href='mailto:anantsingh.cse@gmail.com'>get in touch for a project.</a>
           </p>
         </div>
       </div>
