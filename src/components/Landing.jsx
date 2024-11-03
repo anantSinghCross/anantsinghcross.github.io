@@ -11,7 +11,7 @@ function Landing() {
       <div className="flex flex-col sm:flex-row gap-2 w-max h-max p-10 bg-white">
         <div className="flex flex-col items-center sm:items-start gap-2">
           <img
-            className="w-24 h-24 rounded-full hover:ring hover:ring-teal-300"
+            className="w-24 h-24 rounded-full"
             src={myPic}
             alt="My Pic"
           />
