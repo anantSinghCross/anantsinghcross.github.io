@@ -1,4 +1,3 @@
-import { Fragment } from "react";
 import Landing from "./components/Landing";
 import Projects from "./components/Projects";
 import Summary from "./components/Summary";

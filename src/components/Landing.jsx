@@ -1,9 +1,8 @@
-import React from "react";
 import myPic from "/mypic.JPG";
-import { FaLinkedinIn } from "react-icons/fa";
-import { FiGithub } from "react-icons/fi";
-import { TbMailbox } from "react-icons/tb";
-import { BsInstagram } from "react-icons/bs";
+import {FaLinkedinIn} from "react-icons/fa";
+import {FiGithub} from "react-icons/fi";
+import {TbMailbox} from "react-icons/tb";
+import {BsInstagram} from "react-icons/bs";
 
 function Landing() {
   return (
@@ -28,7 +27,7 @@ function Landing() {
             href="https://www.linkedin.com/in/anantsinghcross/"
           >
             <span className="flex items-center gap-2 sm:gap-5">
-              <FaLinkedinIn size={20} />
+              <FaLinkedinIn size={20}/>
               <p>LinkedIn</p>
             </span>
           </a>
@@ -37,7 +36,7 @@ function Landing() {
             href="https://www.instagram.com/oregano.seasoning/"
           >
             <span className="flex items-center gap-2 sm:gap-5">
-              <BsInstagram size={20} />
+              <BsInstagram size={20}/>
               <p>Instagram</p>
             </span>
           </a>
@@ -46,7 +45,7 @@ function Landing() {
             href="https://github.com/anantSinghCross"
           >
             <span className="flex items-center gap-2 sm:gap-5">
-              <FiGithub size={20} />
+              <FiGithub size={20}/>
               <p>GitHub</p>
             </span>
           </a>
@@ -55,7 +54,7 @@ function Landing() {
             href="mailto:anantsingh.cse@gmail.com"
           >
             <span className="flex items-center gap-2 sm:gap-5">
-              <TbMailbox size={20} />
+              <TbMailbox size={20}/>
               <p>Email</p>
             </span>
           </a>
