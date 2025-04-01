@@ -1,5 +1,12 @@
 export default [
   {
+    title:"Tailor CV 💼 - Professional Resume in Minutes",
+    git:"https://github.com/anantSinghCross/tailor-cv",
+    url:"https://tailor-cv-professional-resume.onrender.com/",
+    desc: "A modern, intuitive resume builder that helps you create professional, customizable resumes in minutes. Tailor CV offers a seamless experience from content creation to PDF generation.",
+    techStack:['React.js', 'Tailwind CSS', 'React-PDF']
+  },
+  {
     title:"Money Maple 🍁 - Expense Manager",
     git:"https://github.com/anantSinghCross/money-maple",
     url:"https://money-maple.onrender.com/",
