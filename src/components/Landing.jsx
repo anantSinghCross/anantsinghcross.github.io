@@ -10,51 +10,51 @@ function Landing() {
       <div className="flex flex-col sm:flex-row gap-2 w-max h-max p-10 bg-white">
         <div className="flex flex-col items-center sm:items-start gap-2">
           <img
-            className="w-24 h-24 rounded-full"
+            className="w-24 h-24 rounded-full border-2 border-transparent hover:border-blue-500 transition-all duration-300 hover:shadow-lg transform hover:scale-105"
             src={myPic}
             alt="My Pic"
           />
-          <p className=" text-sm">Frontend Developer</p>
+          <p className="text-sm">Frontend Developer</p>
           <h1 className="text-4xl">Anant Singh</h1>
-          <p className=" text-zinc-500">
+          <p className="text-zinc-500">
             Seasoned Frontend developer from Bangalore with 4 years of experience in crafting high-performance,
             user-friendly web applications using React.js and Next.js
           </p>
         </div>
         <div className="flex flex-row sm:flex-col gap-4 flex-wrap py-4 sm:py-0">
           <a
-            className=" p-2 px-4 sm:p-3 sm:px-8 bg-blue-500 text-white text-center border-b-4 border-blue-700 hover:bg-blue-500/90 transition-all"
+            className="p-2 px-4 sm:p-3 sm:px-8 bg-blue-500 text-white text-center border-b-4 border-blue-700 hover:bg-blue-500/90 transition-all duration-300 hover:translate-y-[-2px] hover:shadow-md"
             href="https://www.linkedin.com/in/anantsinghcross/"
           >
             <span className="flex items-center gap-2 sm:gap-5">
-              <FaLinkedinIn size={20}/>
+              <FaLinkedinIn size={20} className="transform transition-transform duration-300 group-hover:rotate-12"/>
               <p>LinkedIn</p>
             </span>
           </a>
           <a
-            className=" p-2 px-4 sm:p-3 sm:px-8 bg-rose-500 text-white text-center border-b-4 border-rose-700 hover:bg-rose-500/90 transition-all"
+            className="p-2 px-4 sm:p-3 sm:px-8 bg-rose-500 text-white text-center border-b-4 border-rose-700 hover:bg-rose-500/90 transition-all duration-300 hover:translate-y-[-2px] hover:shadow-md"
             href="https://www.instagram.com/oregano.seasoning/"
           >
             <span className="flex items-center gap-2 sm:gap-5">
-              <BsInstagram size={20}/>
+              <BsInstagram size={20} className="transform transition-transform duration-300 group-hover:rotate-12"/>
               <p>Instagram</p>
             </span>
           </a>
           <a
-            className=" p-2 px-4 sm:p-3 sm:px-8 bg-green-500 text-white text-center border-b-4 border-green-700 hover:bg-green-500/90 transition-all"
+            className="p-2 px-4 sm:p-3 sm:px-8 bg-green-500 text-white text-center border-b-4 border-green-700 hover:bg-green-500/90 transition-all duration-300 hover:translate-y-[-2px] hover:shadow-md"
             href="https://github.com/anantSinghCross"
           >
             <span className="flex items-center gap-2 sm:gap-5">
-              <FiGithub size={20}/>
+              <FiGithub size={20} className="transform transition-transform duration-300 group-hover:rotate-12"/>
               <p>GitHub</p>
             </span>
           </a>
           <a
-            className=" p-2 px-4 sm:p-3 sm:px-8 bg-neutral-500 text-white text-center border-b-4 border-neutral-700 hover:bg-neutral-500/90 transition-all"
+            className="p-2 px-4 sm:p-3 sm:px-8 bg-neutral-500 text-white text-center border-b-4 border-neutral-700 hover:bg-neutral-500/90 transition-all duration-300 hover:translate-y-[-2px] hover:shadow-md"
             href="mailto:anantsingh.cse@gmail.com"
           >
             <span className="flex items-center gap-2 sm:gap-5">
-              <TbMailbox size={20}/>
+              <TbMailbox size={20} className="transform transition-transform duration-300 group-hover:rotate-12"/>
               <p>Email</p>
             </span>
           </a>
