@@ -7,7 +7,7 @@ import {BsInstagram} from "react-icons/bs";
 function Landing() {
   return (
     <div className="flex justify-center w-full max-w-3xl">
-      <div className="flex flex-col sm:flex-row gap-2 w-max h-max p-10 bg-white">
+      <div className="flex flex-col sm:flex-row gap-2 w-full p-10 bg-white">
         <div className="flex flex-col items-center sm:items-start gap-2">
           <img
             className="w-24 h-24 rounded-full border-2 border-transparent hover:border-blue-500 transition-all duration-300 hover:shadow-lg transform hover:scale-105"
